@@ -44,8 +44,8 @@ gulp.task('scripts-libs', function () {
         // 'app/libs/mixitup/mixitup.min.js',
         // 'app/libs/animate/animate-css.js',
         // 'app/libs/jquery.maskedinput/jquery.maskedinput.min.js',
-        // 'app/libs/jquery-lazyload/jquery.lazy.min.js',
-        // 'app/libs/jquery-lazyload/jquery.lazy.plugins.min.js'
+        'app/libs/jquery-lazyload/jquery.lazy.min.js',
+        'app/libs/jquery-lazyload/jquery.lazy.plugins.min.js'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())

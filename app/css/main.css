@@ -32,6 +32,100 @@ body {
     .carousel-wrapper i.fa.fa-angle-right {
       right: 0; }
 
+.portfolio__category {
+  max-width: 1370px;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto; }
+  .portfolio__category .box-wrapper {
+    margin: 10px 25px; }
+    .portfolio__category .box-wrapper:focus {
+      outline: none; }
+  .portfolio__category .cakes-type__img-title {
+    margin-bottom: 10px;
+    font-size: 25px; }
+    .portfolio__category .cakes-type__img-title:focus {
+      outline: none; }
+  .portfolio__category .cakes_type_img {
+    width: 200px;
+    height: 200px;
+    margin: 5px auto auto;
+    display: block; }
+  .portfolio__category .portfolio__images {
+    margin-top: 20px;
+    text-align: center; }
+    .portfolio__category .portfolio__images img {
+      width: 300px;
+      height: 300px;
+      margin: 10px; }
+  .portfolio__category .describe-category-text {
+    max-width: 1140px;
+    width: 97%;
+    padding: 0 10px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 150px auto auto;
+    position: relative; }
+    .portfolio__category .describe-category-text p {
+      font-size: 20px;
+      margin-top: 20px; }
+      .portfolio__category .describe-category-text p.title {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase; }
+      .portfolio__category .describe-category-text p span {
+        font-size: 20px;
+        text-decoration: underline; }
+    .portfolio__category .describe-category-text .contacts {
+      font-size: 20px; }
+    .portfolio__category .describe-category-text#zefir, .portfolio__category .describe-category-text#muss, .portfolio__category .describe-category-text#muka, .portfolio__category .describe-category-text#ct, .portfolio__category .describe-category-text#ch {
+      margin-top: 30px; }
+    .portfolio__category .describe-category-text .order-form-wrapper {
+      padding: 0;
+      height: auto; }
+      .portfolio__category .describe-category-text .order-form-wrapper .order-link {
+        position: fixed;
+        top: 50%;
+        width: 200px;
+        -webkit-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        background: #f67280;
+        right: -90px;
+        -webkit-border-bottom-right-radius: 0;
+                border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+                border-bottom-left-radius: 0;
+        margin: auto; }
+        .portfolio__category .describe-category-text .order-form-wrapper .order-link:hover {
+          margin-top: auto;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 114, 128, 0.5)), to(rgba(246, 114, 128, 0.7)));
+          background-image: -webkit-linear-gradient(top, rgba(246, 114, 128, 0.5), rgba(246, 114, 128, 0.7));
+          background-image: -o-linear-gradient(top, rgba(246, 114, 128, 0.5), rgba(246, 114, 128, 0.7));
+          background-image: linear-gradient(to bottom, rgba(246, 114, 128, 0.5), rgba(246, 114, 128, 0.7)); }
+
 .go_to_top {
   position: fixed;
   bottom: 25px;

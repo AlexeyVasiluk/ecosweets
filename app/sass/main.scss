@@ -48,9 +48,109 @@ body {
       right: 0;
     }
   }
-  .carousel {
-    //width: 100vw;
-    //height: 100vh;
+}
+
+.portfolio__category {
+
+  max-width: 1370px;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: $font_text;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  .box-wrapper {
+    margin: 10px 25px;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .cakes-type__img-title {
+    margin-bottom: 10px;
+
+    font-size: $font_title;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .cakes_type_img {
+
+    width: 200px;
+    height: 200px;
+    margin: 5px auto auto;
+    display: block;
+  }
+
+  .portfolio__images {
+    margin-top: 20px;
+    text-align: center;
+    img {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+    }
+  }
+
+  .describe-category-text {
+    max-width: 1140px;
+    width: 97%;
+    padding: 0 10px;
+    font-size: 25px;
+    text-align: justify;
+    margin: 150px auto auto;
+    position: relative;
+    p{
+      font-size: $font_subtitle;
+      margin-top: 20px;
+      &.title{
+        font-size: $font_title;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      span{
+        font-size: $font_subtitle;
+        text-decoration: underline;
+      }
+    }
+
+    .contacts{
+      font-size: $font_subtitle;
+    }
+
+    &#zefir,
+    &#muss,
+    &#muka,
+    &#ct,
+    &#ch{
+      margin-top: 30px;
+    }
+
+    .order-form-wrapper {
+      padding: 0;
+      height: auto;
+      .order-link {
+        position: fixed;
+        top: 50%;
+        width: 200px;
+        transform: rotate(-90deg);
+        box-shadow: none;
+        background: #f67280;
+        right: -90px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin: auto;
+
+        &:hover {
+          margin-top: auto;
+          background-image: linear-gradient(to bottom, rgba(246, 114, 128, 0.5), rgba(246, 114, 128, 0.7));
+        }
+      }
+    }
   }
 }
 
@@ -60,7 +160,6 @@ body {
   background-color: #E0E0E0;
   border-radius: 10em;
   color: #667;
-  //font-size: $font_title;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -301,35 +400,6 @@ body {
     }
   }
 }
-
-//.testemonials-wrapper {
-//  .carousel-title {
-//    font-size: $font_title;
-//    font-weight: bold;
-//    text-transform: uppercase;
-//    margin-bottom: 30px;
-//  }
-//
-//  .slider_img {
-//    margin: auto;
-//    max-width: 900px;
-//    width: 100%;
-//  }
-//
-//  .slick-next:before, .slick-prev:before {
-//    color: $background-color_primary;
-//    font-size: $font_title * 2;
-//
-//  }
-//  .carousel {
-//    .slick-prev {
-//      left: 30px;
-//    }
-//    .slick-next {
-//      right: 60px;
-//    }
-//  }
-//}
 
 .slider {
   max-width: 900px;

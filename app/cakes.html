@@ -2,183 +2,383 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE last version support-->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Солодкі Фантазії | Замовлення тортів Рівне, Смачні и Оригінальні Торти, Торти на Змовлення</title>
     <link rel="shortcut icon" href="img/logo_brown_cake.png">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
 
-<header class="header">
-    <a class="header__menu-logo" href="index.html"><img class="header__menu-logo-img" src="img/logo_brown_cake.png"
-                                                        alt="">
-        <div class="header__menu-logo-slogan">
-            <div class="small">Кондитерська</div>
-            <div class="big">"Солодкі фантазії"</div>
-            <div class="small">Втілюємо дитячі мрії!</div>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="cakes.html">Торти</a></li>
+            <li><a href="#">Зефір</a></li>
+            <li><a href="#">Макаронcи</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown">Здоба<i class="material-icons right">arrow_drop_down</i></a>
+            </li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Шоколад<i class="material-icons right">arrow_drop_down</i></a>
+            </li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Фрукти<i class="material-icons right">arrow_drop_down</i></a>
+            </li>
+        </ul>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="#">Пряники</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Еклери</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Кекси</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Круасани</a></li>
+        </ul>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#">Маршмелоу</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Карамель</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Нутелла</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Шоколад</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Мусові десерти</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#">Пастила</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Фріпси</a></li>
+        </ul>
+    </div>
+</nav>
+
+<ul class="sidenav" id="mobile-menu">
+    <li><a href="cakes.html">Торти</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Зефір</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Макаронcи</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Кекси</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Пряники</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Еклери</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Круасани</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Маршмелоу</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Карамель</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Нутелла</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Шоколад</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Мусові десерти</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Пастила</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Фріпси</a></li>
+</ul>
+
+<div class="container">
+    <div class="describe-category-text">
+        В кондитерській "Солодкі Фантазії" Ви можете замовити святковий торт для хлопчика у вигляді іграшки чи
+        стилізований
+        під образ
+        найулюбленіших героїв з мультфільмів та казок, які ми робим власноруч і лише з мастики власного виробництва.
+        Торт Тачки, торт Щенячий Патруль, торт Смішарики, торт Майнкрафт, торт Щенячий патруль, торт у виді Губка Боб,
+        торт Смішарики, торт Лего Ніндзяго, торт у формі Машинки, торт Лунтік, торт Фіксики торт у стилі Angry Birds,
+        торт Міньйони, торт з Спайдер Мен, торт з машинками чи звірятками - все це стане реальністю на Вашому святі та
+        безперечно подарує всім величезну купу позитивних емоцій!
+    </div>
+
+    <section class="portfolio">
+        <div class="cakes-type__title">ТОРТИ</div>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s2"><a class="active" href="#test1">Дитячі</a></li>
+                    <li class="tab col s2"><a href="#test2">Подарункові</a></li>
+                    <li class="tab col s2"><a href="#test3">Родини</a></li>
+                    <li class="tab col s2"><a href="#test4">Тематичні</a></li>
+                    <li class="tab col s2"><a href="#test5">Двоповерхові</a></li>
+                    <li class="tab col s2"><a href="#test6">Корпоративні</a></li>
+                </ul>
+            </div>
+            <div id="test1" class="col s12">
+                <div class="portfolio__category">
+                    В кондитерській "Солодкі Фантазії" Ви можете замовити святковий торт для хлопчика у вигляді іграшки чи стилізований під образ
+                    найулюбленіших героїв з мультфільмів та казок, які ми робим власноруч і лише з мастики власного виробництва.
+                    Торт Тачки, торт Щенячий Патруль, торт Смішарики, торт Майнкрафт, торт Щенячий патруль, торт у виді Губка Боб,
+                    торт Смішарики, торт Лего Ніндзяго, торт у формі Машинки, торт Лунтік, торт Фіксики торт у стилі Angry Birds,
+                    торт Міньйони, торт з Спайдер Мен, торт з машинками чи звірятками - все це стане реальністю на Вашому святі та
+                    безперечно подарує всім величезну купу позитивних емоцій!
+
+                    Купити торт для дівчинки, як торт для принцеси - справа не легка.
+                    Але лише завітайте до кондитерської "Солодкі Фантазії", та вибирайте:
+                    торт з мастики чи торт з крему та без мастики, в будь-якому результаті = торт смачний!
+                    Торт Свинка Пеппа, торт Крижане Серце - Ельза та Анна, торт Малишарики, торт з Принцесами,
+                    торт з Барбі, торт в стилі Маша та Ведмідь, торт Баранчик Шон, торт у вигляді Міккі-Мауса,
+                    торт з My Little Pony - на іменинному тортику здійсняться всі найзаповітніші мрії Вашої донечки!
+                    Адже щасливі діти - це запорука вдалого свята!
+
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/boy/boy1.jpg"><img class="lazy" data-src="img/boy/boy1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy2.jpg"><img class="lazy" data-src="img/boy/boy2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy3.jpg"><img class="lazy" data-src="img/boy/boy3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy4.jpg"><img class="lazy" data-src="img/boy/boy4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy5.jpg"><img class="lazy" data-src="img/boy/boy5.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy6.jpg"><img class="lazy" data-src="img/boy/boy6.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy7.jpg"><img class="lazy" data-src="img/boy/boy7.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy9.jpg"><img class="lazy" data-src="img/boy/boy9.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy11.jpg"><img class="lazy" data-src="img/boy/boy11.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy14.jpg"><img class="lazy" data-src="img/boy/boy14.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy15.jpg"><img class="lazy" data-src="img/boy/boy15.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy16.jpg"><img class="lazy" data-src="img/boy/boy16.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy17.jpg"><img class="lazy" data-src="img/boy/boy17.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy18.jpg"><img class="lazy" data-src="img/boy/boy18.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy19.jpg"><img class="lazy" data-src="img/boy/boy19.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy21.jpg"><img class="lazy" data-src="img/boy/boy21.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy24.jpg"><img class="lazy" data-src="img/boy/boy24.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy30.jpg"><img class="lazy" data-src="img/boy/boy30.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy31.jpg"><img class="lazy" data-src="img/boy/boy31.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/boy/boy33.jpg"><img class="lazy" data-src="img/boy/boy33.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl1.jpg"><img class="lazy " data-src="img/girl/girl1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl2.jpg"><img class="lazy " data-src="img/girl/girl2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl3.jpg"><img class="lazy " data-src="img/girl/girl3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl4.jpg"><img class="lazy " data-src="img/girl/girl4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl5.jpg"><img class="lazy " data-src="img/girl/girl5.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl6.jpg"><img class="lazy " data-src="img/girl/girl6.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl8.jpg"><img class="lazy " data-src="img/girl/girl8.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl9.jpg"><img class="lazy " data-src="img/girl/girl9.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl10.jpg"><img class="lazy " data-src="img/girl/girl10.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl11.jpg"><img class="lazy " data-src="img/girl/girl11.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl13.jpg"><img class="lazy " data-src="img/girl/girl13.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl14.jpg"><img class="lazy " data-src="img/girl/girl14.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl15.jpg"><img class="lazy " data-src="img/girl/girl15.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl16.jpg"><img class="lazy " data-src="img/girl/girl16.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl17.jpg"><img class="lazy " data-src="img/girl/girl17.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl18.jpg"><img class="lazy " data-src="img/girl/girl18.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl19.jpg"><img class="lazy " data-src="img/girl/girl19.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl20.jpg"><img class="lazy " data-src="img/girl/girl20.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl21.jpg"><img class="lazy " data-src="img/girl/girl21.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl24.jpg"><img class="lazy " data-src="img/girl/girl24.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl25.jpg"><img class="lazy " data-src="img/girl/girl25.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl26.jpg"><img class="lazy " data-src="img/girl/girl26.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl27.jpg"><img class="lazy " data-src="img/girl/girl27.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl29.jpg"><img class="lazy " data-src="img/girl/girl29.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl30.jpg"><img class="lazy " data-src="img/girl/girl30.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl31.jpg"><img class="lazy " data-src="img/girl/girl31.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl32.jpg"><img class="lazy " data-src="img/girl/girl32.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/girl/girl33.jpg"><img class="lazy " data-src="img/girl/girl33.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+            <div id="test2" class="col s12">
+                <div class="portfolio__category">
+                    Якщо Ви вирішили замовит бісквітний торт в Рівному - згадайте про кондитерську "Солодкі Фантазії".
+                    Ми випечемо та прикрасимо торт для жінки, торт для чоловіка, торт для мами, торт для дівчини, торт для мужчини,
+                    торт для батьків чи торт для дружини - наших "солодких фантазій" вистачить на всі випадки життя!
+                    В наших тортах ми використовуємо найрізноманітніші види бісквіту - масляний, шифоновий, горіховий, ванільний чи шоколадний -
+                    вони задовільнять найвибагливіших гурманів та зробить Ваше святкування незабутнім!
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/wedding/wedding3.jpg"><img class="lazy " data-src="img/wedding/wedding3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/wedding/wedding4.jpg"><img class="lazy " data-src="img/wedding/wedding4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult3.jpg"><img class="lazy " data-src="img/adult/adult3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult4.jpg"><img class="lazy " data-src="img/adult/adult4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult6.jpg"><img class="lazy " data-src="img/adult/adult6.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult7.jpg"><img class="lazy " data-src="img/adult/adult7.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult8.jpg"><img class="lazy " data-src="img/adult/adult8.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult9.jpg"><img class="lazy " data-src="img/adult/adult9.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult10.jpg"><img class="lazy " data-src="img/adult/adult10.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult14.jpg"><img class="lazy " data-src="img/adult/adult14.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult15.jpg"><img class="lazy " data-src="img/adult/adult15.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult30.jpg"><img class="lazy " data-src="img/adult/adult30.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult17.jpg"><img class="lazy " data-src="img/adult/adult17.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult18.jpg"><img class="lazy " data-src="img/adult/adult18.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult19.jpg"><img class="lazy " data-src="img/adult/adult19.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult20.jpg"><img class="lazy " data-src="img/adult/adult20.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult21.jpg"><img class="lazy " data-src="img/adult/adult21.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult22.jpg"><img class="lazy " data-src="img/adult/adult22.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult23.jpg"><img class="lazy " data-src="img/adult/adult23.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult24.jpg"><img class="lazy " data-src="img/adult/adult24.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult27.jpg"><img class="lazy " data-src="img/adult/adult27.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult33.jpg"><img class="lazy " data-src="img/adult/adult33.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult34.jpg"><img class="lazy " data-src="img/adult/adult34.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult35.jpg"><img class="lazy " data-src="img/adult/adult35.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult36.jpg"><img class="lazy " data-src="img/adult/adult36.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult40.jpg"><img class="lazy " data-src="img/adult/adult40.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult41.jpg"><img class="lazy " data-src="img/adult/adult41.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult42.jpg"><img class="lazy " data-src="img/adult/adult42.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/adult/adult43.jpg"><img class="lazy " data-src="img/adult/adult43.jpg"/></a>
+                    </div>
+                </div>
+            </div>
+            <div id="test3" class="col s12">
+                <div class="portfolio__category">
+                    Де можна замовити оригінальний торт на родини чи торт на хрестини в Рівному?
+                    В кондитерській "Солодкі Фантазії" Ви можете замовити дизайнерский торт спеціально до Вашого свята.
+                    Всі елементи декору, фігурки та прикраси для тортів - виготовляються власноруч нашими майстрами.
+                    Будь-яка Ваша задумка буде реалізована у вигляді кремового торту чи торту з мастикою і стане чудовим спогадом про незабутні моменти життя!
+
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/newborn/newborn1.jpg"><img class="lazy " data-src="img/newborn/newborn1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn2.jpg"><img class="lazy " data-src="img/newborn/newborn2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn3.jpg"><img class="lazy " data-src="img/newborn/newborn3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn4.jpg"><img class="lazy " data-src="img/newborn/newborn4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn5.jpg"><img class="lazy " data-src="img/newborn/newborn5.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn7.jpg"><img class="lazy " data-src="img/newborn/newborn7.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn8.jpg"><img class="lazy " data-src="img/newborn/newborn8.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn12.jpg"><img class="lazy " data-src="img/newborn/newborn12.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newborn/newborn13.jpg"><img class="lazy " data-src="img/newborn/newborn13.jpg"/></a>
+                    </div>
+                </div></div>
+            <div id="test4" class="col s12">
+                <div class="portfolio__category">
+                    Торт на день народження, торт підлітку чи торт на ювілей - однозначно торт буде домашній та смачний!
+                    По відгуках вдячних клієнтів - наш шеф-кондитер має просто золоті руки, а підсиливши свої навики
+                    використовуючи новітні технології харчового друку кондитерські можливості майстрів "Солодких Фантазій" стають просто безмежні,
+                    Поєднавши їх з Вашою фантазією ми зможемо зробити такий торт, якого ще ні в кого не було,
+                    і який відповідатиме Вашій тематиці та чудово доповнить атмосферу свята!
+                    Дуже часто закохані виражають свої почуття даруючи солодощі своїй другій половинці.
+                    Закоханність це таке ж ніжне почуття, як і одна зі складових багатьох тортів кондитерської "Солодкі Фантазії" - Безе.
+                    Завдяки йому наші торти просто тануть у роті! А ось калорій воно зовсім не додає, так як складається лише з білків та трішечки цукру )
+                    Солодкого Вам кохання!
+                    "Солодкі Фантазії" роззроблять для Вас ексклюзивний дизайн Вашого Новорічного торту, що буде відповідати символіці наступаючого року,
+                    чим Ви безперечно порадуєте своїх рідних та близьких і отримаєте заряд позитиву та удачі на весь наступний рік!
+                    Новорічна ніч засяє новими враженнями та фарбами!
+
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/thematic/thematic1.jpg"><img class="lazy " data-src="img/thematic/thematic1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic2.jpg"><img class="lazy " data-src="img/thematic/thematic2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic3.jpg"><img class="lazy " data-src="img/thematic/thematic3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/wedding/wedding2.jpg"><img class="lazy " data-src="img/wedding/wedding2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic4.jpg"><img class="lazy " data-src="img/thematic/thematic4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic5.jpg"><img class="lazy " data-src="img/thematic/thematic5.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic6.jpg"><img class="lazy " data-src="img/thematic/thematic6.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic7.jpg"><img class="lazy " data-src="img/thematic/thematic7.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic8.jpg"><img class="lazy " data-src="img/thematic/thematic8.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic9.jpg"><img class="lazy " data-src="img/thematic/thematic9.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic13.jpg"><img class="lazy " data-src="img/thematic/thematic13.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newyear/newyear1.jpg"><img class="lazy " data-src="img/newyear/newyear1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newyear/newyear2.jpg"><img class="lazy " data-src="img/newyear/newyear2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/newyear/newyear3.jpg"><img class="lazy " data-src="img/newyear/newyear3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic17.jpg"><img class="lazy " data-src="img/thematic/thematic17.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic19.jpg"><img class="lazy " data-src="img/thematic/thematic19.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/thematic/thematic20.jpg"><img class="lazy " data-src="img/thematic/thematic20.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/lovers/lovers1.jpg"><img class="lazy " data-src="img/lovers/lovers1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/lovers/lovers2.jpg"><img class="lazy " data-src="img/lovers/lovers2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/lovers/lovers3.jpg"><img class="lazy " data-src="img/lovers/lovers3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/lovers/lovers4.jpg"><img class="lazy " data-src="img/lovers/lovers4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/lovers/lovers6.jpg"><img class="lazy " data-src="img/lovers/lovers6.jpg"/></a>
+                    </div>
+                </div></div>
+            <div id="test5" class="col s12">
+                <div class="portfolio__category">
+                    Бувають свята, коли гостей приходить не просто багато, а дуже багато - і це чудово, адже разом завжди веселіше!
+                    В кондитерській "Солодкі Фантазії" готові і до таких викликів - торт на два та більше ярусів,
+                    або навіть організація святкового Кенді-бару - для нас немає нічого неможливого! Солодощів вистачить всім!
+                    Влучним та оригінальним додатком до весільного подарунку може стати смачний торт на весілля.
+                    В кондитерській "Солодкі Фантазії" Ви зможете замовити двоповерховий торт прикрашений
+                    символікою молодят, гарними квітами, та вітальними топперами.
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/multi/multi1.jpg"><img class="lazy " data-src="img/multi/multi1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/multi/multi2.jpg"><img class="lazy " data-src="img/multi/multi2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/multi/multi3.jpg"><img class="lazy " data-src="img/multi/multi3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/multi/multi4.jpg"><img class="lazy " data-src="img/multi/multi4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/multi/multi5.jpg"><img class="lazy " data-src="img/multi/multi5.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/multi/multi6.jpg"><img class="lazy " data-src="img/multi/multi6.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/wedding/wedding6.jpg"><img class="lazy " data-src="img/wedding/wedding6.jpg"/></a>
+                    </div>
+                </div></div>
+            <div id="test6" class="col s12">
+                <div class="portfolio__category">
+                    Кондитерська "Солодкі Фантазії" пропонує Вам відмітити урочисту подію пов'язану з Ваши бізнесом чи улюбленою роботою -
+                    солодким тортом спеціально розробленим відповідно до специфіки вашої справи. Дизайн розробляється з використанням друку оригінального логотипу Вашої компанії
+                    та усіма атрибутами необхідними для підкреслення індивідуальності саме Вашого свята чи події!
+                    <div class="portfolio__images">
+                        <a class="image-popup-no-margins" href="img/corporate/corporate1.jpg"><img class="lazy " data-src="img/corporate/corporate1.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/corporate/corporate2.jpg"><img class="lazy " data-src="img/corporate/corporate2.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/corporate/corporate3.jpg"><img class="lazy " data-src="img/corporate/corporate3.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/corporate/corporate4.jpg"><img class="lazy " data-src="img/corporate/corporate4.jpg"/></a>
+                        <a class="image-popup-no-margins" href="img/corporate/corporate5.jpg"><img class="lazy " data-src="img/corporate/corporate5.jpg"/></a>
+                    </div>
+                </div></div>
         </div>
-    </a>
 
-    <a href="#" class="menu-slide-button"><span></span></a>
 
-    <div class="header__social">
-        <a class="header__social-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010504895734"><i
-                class="header__social-icon fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a class="header__social-link" target="_blank" href="https://vk.com/id386371422"><i
-                class="header__social-icon fa fa-vk" aria-hidden="true"></i></a>
-        <a class="header__social-link" target="_blank" href="https://www.instagram.com/tortik_rivne"><i
-                class="header__social-icon fa fa-instagram" aria-hidden="true"></i></a>
-    </div>
-
-    <div class="header__contacts-phone">(097) 412 31 82</div>
-</header>
-<menu class="header__menu">
-    <li class="header__link-wrapper"><a class="header__menu-link" href="index.html">Головна</a></li>
-    <li class="header__link-wrapper"><a class="header__menu-link" href="index.html#gallery">Галерея</a></li>
-    <li class="header__link-wrapper"><a class="header__menu-link" href="payment.html">Оплата</a></li>
-    <li class="header__link-wrapper"><a class="header__menu-link" href="index.html#testimonials">Відгуки</a></li>
-    <li class="header__link-wrapper"><a class="header__menu-link" href="contacts.html">Контакти</a></li>
-</menu>
-
-<div class="divider"></div>
-<div class="divider"></div>
-<div class="divider"></div>
-
-<div class="describe-category-text">
-
-    В кондитерській "Солодкі Фантазії" Ви можете замовити святковий торт для хлопчика у вигляді іграшки чи стилізований під образ
-    найулюбленіших героїв з мультфільмів та казок, які ми робим власноруч і лише з мастики власного виробництва.
-    Торт Тачки, торт Щенячий Патруль, торт Смішарики, торт Майнкрафт, торт Щенячий патруль, торт у виді Губка Боб,
-    торт Смішарики, торт Лего Ніндзяго, торт у формі Машинки, торт Лунтік, торт Фіксики торт у стилі Angry Birds,
-    торт Міньйони, торт з Спайдер Мен, торт з машинками чи звірятками - все це стане реальністю на Вашому святі та
-    безперечно подарує всім величезну купу позитивних емоцій!
-
-    <!--КНОПКА ЗАМОВИТИ ТОРТ-->
-    <section class="order-form-wrapper"><a class="popup-with-form button button_color order-link" href="#order-form">Замовити торт</a></section>
-    <!--ФОРМА ЗАМОВЛЕННЯ-->
-    <div id="order-form" class="subscribe-form white-popup-block mfp-hide">
-        <div class="spin_subscribe-title">"Я ХОЧУ ЗАМОВИТИ ТОРТ!"<br> натисніть "надіслати" і ми перетелефонуємо Вам протягом 30 хв.</div>
-        <form class="spin__form" action="mail.php">
-            <input class="spin__form-name" name="name" type="text" required placeholder="Введіть ім'я">
-            <input class="spin__form-phone" name="phone" type="tel" required placeholder="Введіть № телефону">
-            <input class="spin__form-email" name="mail" type="email" required placeholder="Введіть e-mail"><br>
-            <label class="spin__form-checkbox-label"><input class="spin__form-checkbox approve2" type="checkbox">Натискаючи на кнопку, ви даєте згоду на <a class="spin__form-checkbox-link" href="/hdpr.html" target="_blank">обробку своїх персональних
-                даних</a></label>
-            <input disabled class="spin__form-submit2 button button_color" type="submit" value="Надіслати">
-        </form>
-        <div class="spin__form-confidential">Ваші контактні дані в безпеці і не будуть передані третім особам.</div>
-    </div>
+    </section>
 </div>
-
-<section class="portfolio">
-    <div class="cakes-type__title">ТОРТИ</div>
-
-    <div class="filters">
-        <button class="cakes button button_color" type="button" data-filter=".category-a">
-            <span>Для хлопчиків</span>
-        </button>
-        <button class="cap-cakes button button_color" type="button" data-filter=".category-b">
-            <span>Для дівчаток</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-c">
-            <span>На родини</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-d">
-            <span>Тематичні</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-e">
-            <span>На одруження</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-f">
-            <span>Для дорослих</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-g">
-            <span>Для закоханих</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-h">
-            <span>Двоповерхові</span>
-        </button>
-        <button class="cheese-cakes button button_color" type="button" data-filter=".category-j">
-            <span>Корпоративні</span>
-        </button>
-    </div>
-
-    <div class="portfolio__category">
-        <!--<div class="mix box-wrapper category-a">-->
-            <!--<div class="cakes-type__img-title">-->
-                <!--<a class="portfolio__link" href="boys.html">-->
-                    <!--<img src="img/boy/boy16.jpg" alt="" class="cakes_type_img">-->
-                <!--</a>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <div class="portfolio__images mix box-wrapper category-a">
-            <a class="image-popup-no-margins" href="img/boy/boy1.jpg"><img class="lazy" data-src="img/boy/boy1.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy2.jpg"><img class="lazy" data-src="img/boy/boy2.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy3.jpg"><img class="lazy" data-src="img/boy/boy3.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy4.jpg"><img class="lazy" data-src="img/boy/boy4.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy5.jpg"><img class="lazy" data-src="img/boy/boy5.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy6.jpg"><img class="lazy" data-src="img/boy/boy6.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy7.jpg"><img class="lazy" data-src="img/boy/boy7.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy8.jpg"><img class="lazy" data-src="img/boy/boy8.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy9.jpg"><img class="lazy" data-src="img/boy/boy9.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy10.jpg"><img class="lazy" data-src="img/boy/boy10.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy11.jpg"><img class="lazy" data-src="img/boy/boy11.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy12.jpg"><img class="lazy" data-src="img/boy/boy12.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy13.jpg"><img class="lazy" data-src="img/boy/boy13.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy14.jpg"><img class="lazy" data-src="img/boy/boy14.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy15.jpg"><img class="lazy" data-src="img/boy/boy15.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy16.jpg"><img class="lazy" data-src="img/boy/boy16.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy17.jpg"><img class="lazy" data-src="img/boy/boy17.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy18.jpg"><img class="lazy" data-src="img/boy/boy18.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy19.jpg"><img class="lazy" data-src="img/boy/boy19.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy20.jpg"><img class="lazy" data-src="img/boy/boy20.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy21.jpg"><img class="lazy" data-src="img/boy/boy21.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy22.jpg"><img class="lazy" data-src="img/boy/boy22.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy23.jpg"><img class="lazy" data-src="img/boy/boy23.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy24.jpg"><img class="lazy" data-src="img/boy/boy24.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy25.jpg"><img class="lazy" data-src="img/boy/boy25.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy26.jpg"><img class="lazy" data-src="img/boy/boy26.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy27.jpg"><img class="lazy" data-src="img/boy/boy27.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy28.jpg"><img class="lazy" data-src="img/boy/boy28.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy29.jpg"><img class="lazy" data-src="img/boy/boy29.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy30.jpg"><img class="lazy" data-src="img/boy/boy30.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy31.jpg"><img class="lazy" data-src="img/boy/boy31.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy32.jpg"><img class="lazy" data-src="img/boy/boy32.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy33.jpg"><img class="lazy" data-src="img/boy/boy33.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy34.jpg"><img class="lazy" data-src="img/boy/boy34.jpg"/></a>
-            <a class="image-popup-no-margins" href="img/boy/boy35.jpg"><img class="lazy" data-src="img/boy/boy35.jpg"/></a>
-        </div>
-
-    </div>
-</section>
-
+<!--КНОПКА ВВЕРХ-->
 <div class="go_to_top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
-<footer class="footer">
-    <div class="footer__contacts">
-        <i class="footer__contacts-phone fa fa-mobile" aria-hidden="true"> (097) 412-31-82</i>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="footer__social">
-        <a class="footer__social-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010504895734"><i
-                class="footer__social-icon fa fa-facebook-square"
-                aria-hidden="true"></i></a>
-        <a class="footer__social-link" target="_blank" href="https://vk.com/id386371422"><i
-                class="footer__social-icon fa fa-vk"
-                aria-hidden="true"></i></a>
-        <a class="footer__social-link" target="_blank" href="https://www.instagram.com/tortik_rivne"><i
-                class="footer__social-icon fa fa-instagram"
-                aria-hidden="true"></i></a>
-    </div>
-    <div class="footer__copyright">
-        &copy; Кондитерська "Солодкі Фантазії" - торти на замовлення в м.Рівне. Усі права захищені.
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="year">&copy; 2014 - <span id="year">2018</span> Кондитерська "Солодкі Фантазії" - торти на замовлення в м.Рівне. Усі права захищені.</span>
+            <a class="footer__social-link grey-text text-lighten-4 right"
+               target="_blank" href="https://www.facebook.com/profile.php?id=100010504895734">
+                <i class="footer__social-icon fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a class="footer__social-link grey-text text-lighten-4 right" target="_blank"
+               href="https://vk.com/id386371422">
+                <i class="footer__social-icon fa fa-vk" aria-hidden="true"></i>
+            </a>
+            <a class="footer__social-link grey-text text-lighten-4 right" target="_blank"
+               href="https://www.instagram.com/tortik_rivne">
+                <i class="footer__social-icon fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <i class="footer__contacts-phone fa fa-mobile" aria-hidden="true"> (097) 412-31-82</i>
+        </div>
     </div>
 </footer>
+<!--КНОПКА ЗАМОВИТИ ТОРТ-->
+<a class="btn waves-effect red accent-1 popup-with-form order-link" href="#order-form">
+    <i class="small material-icons">phone_in_talk</i>
+    Замовити торт
+</a>
+<!--ФОРМА ЗАМОВЛЕННЯ-->
+<div id="order-form" class="subscribe-form white-popup-block mfp-hide">
+    <div class="spin_subscribe-title">Залиште заявку на безкоштовну розробку макету торта спеціально для вашого свята!
+    </div>
+    <form class="spin__form" action="mail.php">
+        <input class="spin__form-name" name="name" type="text" required placeholder="Введіть ім'я">
+        <input class="spin__form-phone" name="phone" type="tel" required placeholder="Введіть № телефону">
+        <input class="spin__form-email" name="mail" type="email" required placeholder="Введіть e-mail"><br>
+        <label class="spin__form-checkbox-label"><input class="spin__form-checkbox approve2" type="checkbox">Натискаючи
+            на кнопку, ви даєте згоду на <a class="spin__form-checkbox-link" href="/hdpr.html" target="_blank">обробку
+                своїх персональних
+                даних</a></label>
+        <input disabled class="spin__form-submit2 button button_color" type="submit" value="Надіслати">
+    </form>
+    <div class="spin__form-confidential">Ваші контактні дані в безпеці і не будуть передані третім особам.</div>
+</div>
+<!--ПопАП Телефону-->
 <a class="popup-with-form" href="#order-form" id="popup__toggle">
     <div class="circlephone" style="transform-origin: center;"></div>
     <div class="circle-fill" style="transform-origin: center;"></div>
@@ -186,30 +386,13 @@
         <div class="img-circleblock" style="transform-origin: center;"></div>
     </div>
 </a>
-
 <!--[if lt IE 9]>
 <script src="js/html5.min.js"></script>
 <!--<![endif]-->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="js/libs.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="https://use.fontawesome.com/b07f20f6d5.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126637209-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-126637209-1');
-</script>
-
 </body>
 </html>
-
-
